@@ -1,0 +1,19 @@
+body{
+	text-align: center;
+	background-color: linen;
+	color: darkgrey;
+	font-family: georgia, serif;
+}
+#slogan{
+	text-align: center;
+	color: darkgrey;
+	font-family: georgia, serif;
+	font-weight: normal;
+}
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+a{
+	text-align: center;
+}
