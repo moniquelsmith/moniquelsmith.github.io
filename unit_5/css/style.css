@@ -12,21 +12,18 @@ nav{
 	font-weight: 700;
 	font-size: 16px;
 	text-align: right;
-	margin: 2em 12em 0 0;
+	margin: 2em 0;
 	word-spacing: 10px;
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
 }
-
 
 body{
 	background-color:white;
 	text-align: center;
 	line-height: 1.5em;
-
-
 }
-div{
-}
-
 
 h1{
 	font-family: 'Montserrat', sans-serif;
@@ -37,8 +34,11 @@ h1{
 }
 
 
-.center{
+header{
 	margin: 4em auto; text-align: left; width: 550px;
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
 }
 
 
@@ -49,10 +49,22 @@ p{
 	font-size: 16px;
 }
 
+section{
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
 
 footer{
 	font-family: 'Raleway', sans-serif;
 	font-weight: light;
 	color:#333;
 	font-size: 16px;
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+.wrapper{
+	background-color: lightyellow;
 }
