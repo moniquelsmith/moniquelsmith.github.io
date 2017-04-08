@@ -1,23 +1,37 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
-a{
-	color:#333;
-	text-decoration: none;
-}
 
 nav{
 	font-family: 'Montserrat', sans-serif;
 	text-transform: lowercase;
-	font-weight: 700;
+	font-weight: 400;
 	font-size: 16px;
-	text-align: right;
-	padding: 65px;
-	word-spacing: 10px;
+	padding:25px 0;
+	width: 100%;
+	margin: 0 auto;
+}
+
+a{
+	background-color: #fbfbfb;
+	color:#333;
+	text-decoration: none;
+	display: block;
+	float: right;
+	padding: 20px;
+}
+
+a:hover{
+	color:#aaaaaa;
+}
+
+#logo{
+	display: inline-block;
+	float:left;
 }
 
 body{
-	background-color:white;
+	background-color: #fbfbfb;
 	text-align: center;
 	line-height: 1.5em;
 }
@@ -46,6 +60,8 @@ p{
 }
 
 section{
+	width: 1400px;
+	margin: 0 auto;
 
 }
 
@@ -59,10 +75,22 @@ footer{
     margin: 65px auto 0 auto; 
 }
 
-.wrapper{
-
-}
 
 .thumbnail{
-
+	float:left;
+	padding: 5px;
 }
+
+.thumbnail:hover{
+	opacity: 0.3;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
